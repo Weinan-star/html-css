@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>再现w3school导航条</title>
+    <link rel="stylesheet" href="../reset/reset.css">
+    <style>
+        .nav{
+            width: 1210px;
+            height: 48px;
+            line-height: 48px;
+            background-color: #E8E7E3;
+            margin: 50px auto;
+            /* 设置为弹性容器 */
+            display: flex;
+        }
+        .nav li{
+            /* 设置增长系数 */
+            flex-grow: 1;
+        }
+        .nav a{
+            display: block;
+            font-size: 16px;
+            text-decoration: none;
+            color: #808080;
+            text-align: center;
+        }
+        .nav a:hover{
+            background-color: #636363;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="javascript:;">HTML/CSS</a></li>
+        <li><a href="javascript:;">Browser Side</a></li>
+        <li><a href="javascript:;">Server Side</a></li>
+        <li><a href="javascript:;">Programming</a></li>
+        <li><a href="javascript:;">XML</a></li>
+        <li><a href="javascript:;">Web Building</a></li>
+        <li><a href="javascript:;">Reference</a></li>
+    </ul>
+    
+</body>
+</html>
